@@ -113,23 +113,19 @@ section,footer{
     margin-top: 14%;
     text-align: center;
     width: 85%;
-    /* margin-right: 10% */
 }
 .card-1 h2{
     font-size: 20px;
     width: 95%;
-    /* padding-left: 25px; */
 }
 .cards h1{
     margin-top: 22%;
-    /* text-align: center; */
 }
 
 .card-2 .netflixMobile{
     display: flex;
     text-align: center;
     padding: 65px 0px 60px 16px;
-
 }
 .card-2 img{
     width: 85%;
