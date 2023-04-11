@@ -7,7 +7,7 @@
 }
 header{
     /* background-image: url("bg1.jpg"); */
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(/bg1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(/bg1.jpg);
     height: 100vh;
 }
 body{
@@ -15,7 +15,7 @@ body{
 }
 
 h2,h3,p{
-    font-weight:200 ;
+    font-weight:400 ;
 }
 
 .showcase-top{
@@ -77,30 +77,39 @@ h2,h3,p{
     margin-top: 14%;
 }
 
-.btn{
+ .btn{
     background-color: red;
-    border-radius: 2px;
+    border-radius: 3px;
     color: white;
-    width: 100%;
+    margin: 0px 0px 43px 7px;
     text-decoration: none;
-    padding: 12px 23px 14px 13px;
+    padding: 13px 21px 20px 18px;
 }
 
-
-
+.mail{
+    display: flex;
+    margin-left: 20%;
+}
+.get {
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    margin: 0px 0px 43px 7px;
+    text-decoration: none;
+    padding: 13px 21px 20px 18px;}
 section,footer{
     background-color: black;
 }
 
 .card-1,.card-2,.card-3,.card-4,.card-5{
-    border-bottom: 5px solid rgb(26, 26, 26);
+    border-bottom: 6px solid rgb(26, 26, 26);
 }
 .card-1{
-    border-top: 5px solid rgb(26, 25, 25);
+    border-top: 6px solid rgb(26, 25, 25);
 }
 .card-1{
     display: flex;
-    padding: 45px 22px 50px 15px;
+    padding: 30px 22px 40px 15px;
 }
 .card-1 img{
     max-width: 80%;
@@ -112,11 +121,11 @@ section,footer{
     word-spacing: 5px;
     margin-top: 14%;
     text-align: center;
-    width: 85%;
 }
 .card-1 h2{
-    font-size: 20px;
-    width: 95%;
+    font-size: 23px;
+    width: 80%;
+    margin-left: 12%;
 }
 .cards h1{
     margin-top: 22%;
@@ -142,23 +151,25 @@ section,footer{
 }
 
 .card-2 h2{
-    font-size: 20px;
+    font-size: 23px;
     width: 61%;
     text-align: left;
     padding-left: 16%;
 }
 .card-3 .watchanywhere{
     display: flex;
-    padding: 50px 0px 20px 17px;
+    padding: 50px 0px 20px 0px;
 }
 .card-3 img{
-    width: 82%;
+    width: 77%;
+    margin-left: 10%;
 }
 .card-3 h1{
     font-size: 50px;
     word-spacing: 5px;
     margin-top: 14%;
-    /* margin-right: 10%; */
+    margin-left: 15%;
+    width: 95%;
 }
 .top i{
     transform: translate(52px,8px);
@@ -176,8 +187,9 @@ footer .footer .top{
     margin: 0;
 }
 .card-3 h2{
-    font-size: 20px;
+    font-size: 23px;
     width: 71%;
+    margin-left: 16%;
 }
 .card-4 .kidssection{
     display: flex;
@@ -194,7 +206,7 @@ footer .footer .top{
 }
 
 .card-4 h2{
-    font-size: 20px;
+    font-size: 23px;
     width: 64%;
 }
 .card-5 h1{
@@ -218,10 +230,7 @@ footer .footer .top{
     padding-top: 40px;
     padding-bottom:16px;
 }
-div .mail{
-    text-align: center;
-    height: 100px;
-}
+
 .showcase-content input{
     color: white;
 }
@@ -231,9 +240,11 @@ div .mail{
     border: 1px solid rgb(209, 209, 209);
     border-radius: 5px;
     padding-left: 12px; 
-    height: 45px;
-    width: 36%;
+    height: 55px;
+    width: 50%;
+    color: white;
 }
+
 
 .footer ul li{
     display: inline-block;
@@ -264,7 +275,7 @@ div .mail{
 
 @media(max-width:900px){
     .showcase-content h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .showcase-content h3{
         margin-top: 1.5%;
@@ -274,25 +285,25 @@ div .mail{
         margin-bottom: 26px;
     }
     .card-1 h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .card-1 h2 {
         font-size: 15px;
     }
     .card-2 h1{
-        font-size: 40px
+        font-size: 35px
     }
     .card-2 h2 {
         font-size: 15px;
     }
     .card-3 h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .card-3 h2 {
         font-size: 15px;
     }
     .card-4 h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .card-4 h2 {
         font-size: 15px;
@@ -315,6 +326,9 @@ div .mail{
 
 
 @media(max-width:850px) {
+    .showcase-content h1{
+        font-size: 35px;
+    }
     .card-1 h1{
         width: 105%;
         line-height: 1.7;
@@ -359,10 +373,13 @@ div .mail{
 .card-1 h1{
     width: 100%;
     text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
 }
 .card-1 h2{
-    width: 100%;
+    width: 71%;
     text-align: center;
+    padding-top: 10px;
 }
 .card-1 img {
     width: 75%;
@@ -372,19 +389,16 @@ div .mail{
     width: 100%;
     text-align: center;
 }
-.card-1 h1{
-    margin-top: 0%;
-}
 .card-2 .netflixMobile {
     text-align: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     padding: 0;
     padding-top: 26px;
     padding-bottom: 50px;
 }
 .card-2 img {
-    width: 55%;
+    width: 85%;
 }
 .card-2 h1{
     width: 75%;
@@ -396,6 +410,8 @@ div .mail{
     width: 100%;
     text-align: center;
     padding: 0;
+    font-size: 17px;
+    padding-top: 10px;
 }
 .card-3 .watchanywhere{
     flex-direction: column;
@@ -410,45 +426,112 @@ div .mail{
 .card-3 h2{
     width: 100%;
     padding-top: 10px ;
+    padding-bottom: 10px ;
+    margin: 0%;
 }
 .card-3 img {
     padding: 0%;
-    width: 65%
+    width: 75%
 }
 .card-4 .kidssection{
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
+    padding: 0%;
 }
 .card-4 img {
-    width: 60%;
+    width: 75%;
 }
 .card-4 h1{
     font-size: 35px;
+    width: 100%;
 }
 .card-4 h2 {
-    font-size: 15px;
-    width: 64%;
-    padding-left: 75px;
+    width: 79%;
+    padding-left: 56px;
     padding-top: 10px;
 }
 }
 
 
+@media(max-width: 600px){
+    div .mail {
+    flex-direction: column;
+    width: 58%;
+}
+.mail input{
+    width: 100%;
+}
+.get {
+   width: max-content;
+   margin-top: 15px;
+   margin-left: 98px;
+}
+.btn{
+    width: max-content;
+    margin-top: 15px;
+    margin-left: 98px;
+}
+}
+
 @media(max-width:550px){
     .showcase-content h1{
-      width: 50%;
+      width: 100%;
+    }
+    .showcase-content p{
+    font-size: 15px;  
+    }
+    .card-3 h2{
+        font-size: 17px;
+    }
+    .card-4 h1{
+        font-size: 32px;
     }
     .card-5 h1{
         font-size: 30px;
     }
-    .showcase-content h1{
-        width: 100%;
-    }
     .footer ul li{
         width: 47%;
-
     }
-    .footer{
-    }
-
 }
+
+
+@media(max-width:400px){
+    .showcase-top img{
+        width: 17%;
+        padding-left: 11px;
+}
+.top{
+    margin-right: 5px;
+}
+
+.showcase-content h1{
+    font-size: 32px;
+}
+.showcase-content h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.showcase-content p{
+    width: 80%;
+    padding-left: 35px;    
+}
+.mail input{
+    height: 40px;
+}
+.get{
+    padding: 6px 10px 10px 10px;
+    margin-left: 45px;
+}
+.card-5 h1{
+    font-size: 25px;
+}
+.card-5 p{
+    width: 88%;
+    margin-left: 23px;
+}
+.btn{
+    margin-left: 45px;
+    padding: 6px 10px 10px 10px;
+    }
+}
+    
