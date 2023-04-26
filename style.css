@@ -28,7 +28,7 @@ h2,h3,p{
     justify-content: space-evenly;
     /* width: 40px; */
     display: inline-flex;
-    gap: 30px;
+    gap: 23px;
 
 }
 
@@ -180,7 +180,7 @@ section,footer{
     width: 95%;
 }
 .top i{
-    transform: translate(52px,8px);
+    transform: translate(45px,7px);
 }
 .bottom i{
     transform: translate(26px,2px);
@@ -479,6 +479,10 @@ footer .footer .top{
     width: max-content;
     margin-top: 15px;
     margin-left: 98px;
+}
+
+.showcase-content {
+    margin-top: 18%;
 }
 }
 
