@@ -43,15 +43,14 @@ h2,h3,p{
 
 .showcase-top a{
     background-color: red;
-    border-radius: 4px;
+    border-radius: 5px;
     color: white;
-    width: 95px;
+    width: 90px;
     text-decoration: none;
-    padding: 4px 12px 0px 7p;
-    height: 28px;
     font-weight: 600;
     text-align: center;
-    align-items: center;
+    padding: 2px;
+    height: 27px;
 
 }
 .showcase-top img{
@@ -511,11 +510,8 @@ footer .footer .top{
     height: 70vh;
 }
 
-.top{
-    margin-right: 5px;
-}
-
 .showcase-content h1{
+    padding-top: 25px;
     font-size: 32px;
 }
 .showcase-content h3{
@@ -537,8 +533,7 @@ footer .footer .top{
     font-size: 30px;
 }
 .card-1 h2{
-    width: 100%;
-    margin-left: 3px;
+    width: 78%;
 }
 .card-4 h1{
     font-size: 28px;
@@ -555,8 +550,11 @@ footer .footer .top{
     margin-left: 23px;
 }
 .btn{
-    margin-left: 45px;
+    margin-left: 62px;
     padding: 6px 10px 10px 10px;
     }
 }
-    
+
+@media(max-width:350px){
+
+}
