@@ -6,8 +6,7 @@
     
 }
 header{
-    /* background-image: url("bg1.jpg"); */
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(/bg1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(/bg1.jpg);
     height: 100vh;
 }
 body{
@@ -44,12 +43,12 @@ h2,h3,p{
 
 .showcase-top a{
     background-color: red;
-    border-radius: 6px;
+    border-radius: 4px;
     color: white;
-    width: 75px;
+    width: 95px;
     text-decoration: none;
     padding: 4px 12px 0px 7p;
-    height: 27px;
+    height: 28px;
     font-weight: 600;
     text-align: center;
     align-items: center;
@@ -64,7 +63,7 @@ h2,h3,p{
     font-size: 50px;
 }
 .showcase-content h3{
-    font-weight: 500;
+    font-weight: 600;
 }
 .showcase-content p{
     margin-top: 13px;
@@ -74,7 +73,7 @@ h2,h3,p{
 
 .showcase-content{
     text-align: center;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 
  .btn{
@@ -113,7 +112,6 @@ section,footer{
 }
 .card-1 img{
     max-width: 80%;
-    float: right;
 }
 
 .card-1 h1{
@@ -130,6 +128,12 @@ section,footer{
 .cards h1{
     margin-top: 22%;
 }
+.video{
+    transform: translate(53px, 40px);
+}
+
+
+
 
 .card-2 .netflixMobile{
     display: flex;
@@ -156,6 +160,11 @@ section,footer{
     text-align: left;
     padding-left: 16%;
 }
+.icon{ 
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
 .card-3 .watchanywhere{
     display: flex;
     padding: 50px 0px 20px 0px;
@@ -348,7 +357,7 @@ footer .footer .top{
 
 @media(max-width:800px){
     .showcase-content h1 {
-        font-size: 35px;
+        font-size: 33px;
     }
     .card-1 h1 {
         font-size: 35px;
@@ -377,7 +386,6 @@ footer .footer .top{
     margin-left: 0%;
 }
 .card-1 h2{
-    width: 71%;
     text-align: center;
     padding-top: 10px;
 }
@@ -401,13 +409,12 @@ footer .footer .top{
     width: 85%;
 }
 .card-2 h1{
-    width: 75%;
+    width: 98%;
     text-align: center;
     padding: 0;
-    margin-left: 13%;
 }
 .card-2 h2{
-    width: 100%;
+    width: 97%;
     text-align: center;
     padding: 0;
     font-size: 17px;
@@ -424,7 +431,7 @@ footer .footer .top{
     margin: 0%;
 }
 .card-3 h2{
-    width: 100%;
+    width: 97%;
     padding-top: 10px ;
     padding-bottom: 10px ;
     margin: 0%;
@@ -446,7 +453,7 @@ footer .footer .top{
     width: 100%;
 }
 .card-4 h2 {
-    width: 79%;
+    width: 75%;
     padding-left: 56px;
     padding-top: 10px;
 }
@@ -458,13 +465,16 @@ footer .footer .top{
     flex-direction: column;
     width: 58%;
 }
+.header{
+    height: auto;
+}
 .mail input{
     width: 100%;
+    margin-bottom:10px;
 }
 .get {
-   width: max-content;
-   margin-top: 15px;
-   margin-left: 98px;
+   margin: auto;
+
 }
 .btn{
     width: max-content;
@@ -476,9 +486,6 @@ footer .footer .top{
 @media(max-width:550px){
     .showcase-content h1{
       width: 100%;
-    }
-    .showcase-content p{
-    font-size: 15px;  
     }
     .card-3 h2{
         font-size: 17px;
@@ -499,6 +506,9 @@ footer .footer .top{
     .showcase-top img{
         width: 17%;
         padding-left: 11px;
+}
+.header{
+    height: 100%;
 }
 .top{
     margin-right: 5px;
@@ -521,6 +531,20 @@ footer .footer .top{
 .get{
     padding: 6px 10px 10px 10px;
     margin-left: 45px;
+}
+.card-2 h1{
+    font-size: 30px;
+}
+.card-1 h2{
+    width: 100%;
+    margin-left: 3px;
+}
+.card-4 h1{
+    font-size: 28px;
+}
+.card-4 h2{
+    width: 92%;
+    margin-left: -45px;
 }
 .card-5 h1{
     font-size: 25px;
