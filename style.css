@@ -512,7 +512,13 @@ footer .footer .top{
     .footer ul li{
         width: 47%;
     }
+}
 
+@media(max-width:450px){
+    .btn{
+        margin-left: 60px;
+    }
+}
 
 
 @media(max-width:400px){
@@ -578,8 +584,4 @@ footer .footer .top{
     margin-left: 56px;
     padding: 6px 10px 10px 10px;
     }
-}
-
-@media(max-width:350px){
-
 }
