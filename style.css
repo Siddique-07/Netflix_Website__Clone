@@ -381,6 +381,15 @@ footer .footer .top{
         font-size: 40px;
         margin-top: 4%;
     }
+    .card-5 details{
+        margin-left: 70px;
+        width: 75%;    
+    }
+    .card-5 p{
+        font-size: 18px;
+        width: 65%;
+        margin-left: 125px;  
+      }
 }
 
 @media(max-width:700px){
@@ -488,6 +497,16 @@ footer .footer .top{
     margin-top: 15px;
     margin-left: 98px;
 }
+.card-5 details{
+    width: 83%;
+    margin-left: 30px;
+}
+.card-5 summary{
+    font-size: 20px;
+}
+.card-5 p{
+    margin-left: 105px;
+}
 
 .showcase-content {
     margin-top: 18%;
@@ -509,11 +528,22 @@ footer .footer .top{
     .card-5 h1{
         font-size: 30px;
     }
+    .card-5 p{
+        margin-left:93px;
+    }
     .footer ul li{
         width: 47%;
     }
 }
 
+@media(max-width:500px){
+    .btn{
+        margin-left: 70px;
+    }
+    .card-5 details{
+        width: 77%;
+    }
+}
 @media(max-width:450px){
     .btn{
         margin-left: 60px;
@@ -570,10 +600,8 @@ footer .footer .top{
     margin-left: 23px;
     font-size: 17px;
 }
-.card-5 details{
-    font-size: 20px;
-    width: 82%;
-}
+
+
 .card-5 .title1{
     font-size:18px ;
 }
