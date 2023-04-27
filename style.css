@@ -544,14 +544,18 @@ footer .footer .top{
         width: 77%;
     }
 }
-@media(max-width:450px){
+
+/* @media(max-width:450px){
     .btn{
         margin-left: 60px;
     }
-}
+    .mail input{
+        height: 40px;
+    }
+} */
 
 
-@media(max-width:400px){
+@media(max-width:450px){
     .showcase-top img{
         width: 17%;
         padding-left: 11px;
@@ -609,7 +613,7 @@ footer .footer .top{
     font-size:18px ;
 }
 .btn{
-    margin-left: 56px;
+    margin-left: 75px;
     padding: 6px 10px 10px 10px;
     }
 }
